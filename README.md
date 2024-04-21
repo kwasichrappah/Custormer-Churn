@@ -88,6 +88,14 @@ The trained machine learning model can be deployed using the scripts provided. T
 
 -  Email:[Email](mailto:gabriel.kwatei@azubiafrica.org?subject=Hi "Hi!")
 
+##  Contributions 
+
+Contributions, issues, and feature requests are welcome!
+
+
+## ⭐️ Show your support
+If you like this project kindly show some love, give it a 🌟 **STAR** 🌟
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
