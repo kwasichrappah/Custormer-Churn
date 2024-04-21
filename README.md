@@ -26,9 +26,8 @@ The dataset used for this project contains historical information about customer
 ## Getting Started
 1. Clone the repository:
 
-   git clone https://github.com/your_username/customer-churn-project.git
-   cd customer-churn-project
-
+   git clone https://github.com/kwasichrappah/Custormer-Churn.git
+   cd Customer-Churn
 2. Install dependencies:
 
    pip install -r requirements.txt
