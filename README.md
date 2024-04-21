@@ -19,7 +19,7 @@ The dataset used for this project contains historical information about customer
 
 ## Project Structure
 - **data/**: Contains the dataset files.
-- **notebooks/**: Jupyter notebooks for data exploration, preprocessing, and model development.`
+- **notebook/**: Jupyter notebook for data exploration, preprocessing, and model development.`
 - **models/**: Saved machine learning tuned and non-tuned models.
 - **README.md**: Project overview and instructions.
 
@@ -27,12 +27,13 @@ The dataset used for this project contains historical information about customer
 1. Clone the repository:
 
    git clone https://github.com/kwasichrappah/Custormer-Churn.git
+
    cd Customer-Churn
 2. Install dependencies:
 
    pip install -r requirements.txt
 
-3. Explore the Jupyter notebooks in the `notebooks/` directory for data analysis and model development.
+3. Explore the Jupyter notebooks in the `notebook/` directory for data analysis and model development.
 4. Run the scripts in the `src/` directory for model deployment or further analysis.
 
 ## Dependencies
@@ -43,6 +44,18 @@ The dataset used for this project contains historical information about customer
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+## Data analysis 
+## Models
+- Logistic Regression
+- SVC 
+- XGBoost
+- CatBoost
+
+## Data balancing / Straification
+Data imbalance affects machine learning models by tending only to predict the majority class and ignoring the minority class. The kind of method used is dependent on the datast and what the project tends to achieve. There are a number of methods to take care of that and they include :
+- Undersampling
+- Oversampling 
+- SMOTE
 
 ## Model Evaluation
 We evaluate the performance of the machine learning models using metrics such as accuracy, precision, recall, and ROC-AUC. Cross-validation and hyperparameter tuning techniques are used to optimize model performance.
@@ -50,22 +63,29 @@ We evaluate the performance of the machine learning models using metrics such as
 ## Deployment
 The trained machine learning model can be deployed using the scripts provided. This allows real-time prediction of customer churn based on new data.
 
-## Contributors
-- Emmanuel Chrappah (emmanuel.chrappah@azubiafrica.org)
-- Abigail Amponsah (abigail.amponsah@azubiafrica.org)
-- Gabriel Kwatei (gabriel.kwatei@azubiafrica.org)
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+🕵🏽‍♀️ **Emmanuel Chrappah**
+
+-  Github:[Profile](https://github.com/kwasichrappah "Emmanuel Chrappah")
+-  Email:[Email](mailto:emmanuel.chrappah@azubiafrica.org?subject=Hi "Hi!")
+- Twitter: [Twitter Handle](https://twitter.com/jaychraps)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/emmanuel-chrappah-61115813b/)
+
+🕵🏽‍♀️ **Abigail Amponsah**
+
+-  Email:[Email](mailto:abigail.amponsah@azubiafrica.org?subject=Hi "Hi!")
+
+🕵🏽‍♀️ **Gabriel Kwatei**
+
+-  Email:[Email](mailto:gabriel.kwatei@azubiafrica.org?subject=Hi "Hi!")
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Data imbalance
-Data imbalance affects machine learning models by tending only to predict the majority class and ignoting the minority class, hence, having major misclassification of the minority class in comparison with the majority class. Hence, we use techniques to balance class distribution in the data.
 
-Models Training
-Four different models were applied on the data and all results are reported with confusion matrix and classification report showing the precision, recall, and f1-score metrics.
 
-Logistic regression Best parameters after several trials: C=200 (very large c value trying to fit the data as possible without overfitting), max_iter=1000
-Support vector classifier Best prameters: kernel='linear', C=20
-XGBoost classifier RandomizedSearchCV is used for hyperparameters tuning with StratifiedKFold of 5 splits.
-Multi-layer Perceptron (MLP) classifier.
- 
+
