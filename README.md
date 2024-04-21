@@ -44,7 +44,12 @@ The dataset used for this project contains historical information about customer
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+
 ## Data analysis 
+- Data cleaning
+- Exploratory data analysis 
+- Analytical questions 
+
 ## Models
 - Logistic Regression
 - SVC 
